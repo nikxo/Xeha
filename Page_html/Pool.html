@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+  <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+
+  <title>Xehacoin</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="icon/favicon.png" />
+</head>
+
+<body>
+  <div class="sidebar">
+    <div class="logo-details">
+      <a href="#">
+        <i><img src="icon/coin.png"></i>
+      </a>
+      <span class="logo_name">XehaCoin</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="Dashboard.html">
+          <i class='bx bx-grid-alt'></i>
+          <span class="link_name">Dashboard</span>
+        </a>
+        <ul class="sub-menu blank">
+          <a class="link_name" href="Dashboard.html">Dashboard</a>
+        </ul>
+      </li>
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <i class='bx bx-transfer-alt'></i>
+            <span class="link_name">Quickswap</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <a class="link_name" href="#">Quickswap</a>
+          <a href="Swap.html">Buy</a>
+          <a href="Buy.html">Sell</a>
+          <a href="Buy.html">Rewards</a>
+
+        </ul>
+      </li>
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <i class='bx bx-data'></i>
+            <span class="link_name">Farm</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <a class="link_name" href="#">Farm</a>
+      </li>
+      <a href="#">Web Design</a>
+      <a href="#">Login Form</a>
+      <a href="#">Card Design</a>
+    </ul>
+    </li>
+    <li>
+      <a href="Pool.html">
+        <i class='bx bx-outline'></i>
+        <span class="link_name">Pool</span>
+      </a>
+      <ul class="sub-menu blank">
+        <a class="link_name" href="Pool.html">Pool</a>
+      </ul>
+    </li>
+    <li>
+      <div class="icon-link">
+        <a href="#">
+          <i class='bx bx-line-chart'></i>
+          <span class="link_name">Chart</span>
+        </a>
+        <i class='bx bxs-chevron-down arrow'></i>
+      </div>
+      <ul class="sub-menu">
+        <a class="link_name" href="#">Chart</a>
+        <a href="#">Tokens</a>
+        <a href="#">Pool</a>
+        <a href="#">Wallet stats </a>
+      </ul>
+    </li>
+    <li>
+      <a href="#">
+        <i class='bx bx-cog'></i>
+        <span class="link_name">Setting</span>
+      </a>
+      <ul class="sub-menu blank">
+        <a class="link_name" href="#">Setting</a>
+      </ul>
+    </li>
+    <li>
+      <div onclick="login()" class="profile-details">
+        <div class="profile-content">
+          <!--<img src="image/profile.jpg" alt="profile">-->
+        </div>
+        <a href="#">
+          <div class="name-job">
+            <div class="profile_name">Login</div>
+            <div class="job">With Metamask</div>
+          </div>
+        </a>
+        <i><img src="icon/metalogo.png"></i>
+      </div>
+    </li>
+    </ul>
+  </div>
+
+  <script>
+
+    let arrow = document.querySelectorAll(".arrow");
+    for (var i = 0; i < arrow.length; i++) {
+      arrow[i].addEventListener("click", (e) => {
+        let arrowParent = e.target.parentElement.parentElement;
+        arrowParent.classList.toggle("showMenu");
+      });
+    }
+
+    let sidebar = document.querySelector(".sidebar");
+    let sidebarBtn = document.querySelector(".logo-details a i img");
+    console.log(sidebarBtn);
+    sidebarBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("close");
+    });
+
+
+    Moralis.initialize("A1wx0qFYX4M8QlKNVeC330wGq2EYnO0iOGQggXc8"); // Application id from moralis.io
+    Moralis.serverURL = "https://kbcp7hj3liti.moralis.io:2053/server"; //Server url from moralis.io
+
+    async function login() {
+      console.log("login clicked");
+      var user = await Moralis.Web3.authenticate();
+      if (user) {
+        console.log(user);
+        user.save();
+      }
+    }
+
+
+    Moralis.User.enableUnsafeCurrentUser()
+    const currentUser = Moralis.User.current();
+    if (currentUser) {
+      console.log("log sucess");
+    } else {
+      console.log("unable to log");
+    }
+  </script>
+
+  <div class="Pool">
+    <iframe src="https://quickswap.exchange/#/pool" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  </div>
+</body>
+
+</html>
