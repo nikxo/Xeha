@@ -5,12 +5,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
   <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
 
   <title>Xehacoin</title>
-  <link rel="stylesheet" href="style.css">
   <!-- Boxicons CDN Link -->
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   <!-- Favicon -->
@@ -21,7 +20,7 @@
   <div class="sidebar">
     <div class="logo-details">
       <a href="#">
-        <i><img src="icon/coin.png"></i>
+        <i><img src="icon\coin.png"></i>
       </a>
       <span class="logo_name">XehaCoin</span>
     </div>
@@ -48,7 +47,6 @@
           <a href="Swap.html">Buy</a>
           <a href="Buy.html">Sell</a>
           <a href="Buy.html">Rewards</a>
-
         </ul>
       </li>
       <li>
@@ -60,60 +58,81 @@
           <i class='bx bxs-chevron-down arrow'></i>
         </div>
         <ul class="sub-menu">
-          <a class="link_name" href="#">Farm</a>
+          <a class="link_name" href="#">Staking</a>
+          <a href="#">XHA</a>
+          <a href="#">ETH</a>
+          <a href="#">USDT</a>
+        </ul>
       </li>
-      <a href="#">Web Design</a>
-      <a href="#">Login Form</a>
-      <a href="#">Card Design</a>
-    </ul>
-    </li>
-    <li>
-      <a href="Pool.html">
-        <i class='bx bx-outline'></i>
-        <span class="link_name">Pool</span>
-      </a>
-      <ul class="sub-menu blank">
-        <a class="link_name" href="Pool.html">Pool</a>
-      </ul>
-    </li>
-    <li>
-      <div class="icon-link">
-        <a href="#">
-          <i class='bx bx-line-chart'></i>
-          <span class="link_name">Chart</span>
-        </a>
-        <i class='bx bxs-chevron-down arrow'></i>
-      </div>
-      <ul class="sub-menu">
-        <a class="link_name" href="#">Chart</a>
-        <a href="#">Tokens</a>
-        <a href="#">Pool</a>
-        <a href="#">Wallet stats </a>
-      </ul>
-    </li>
-    <li>
-      <a href="#">
-        <i class='bx bx-cog'></i>
-        <span class="link_name">Setting</span>
-      </a>
-      <ul class="sub-menu blank">
-        <a class="link_name" href="#">Setting</a>
-      </ul>
-    </li>
-    <li>
-      <div onclick="login()" class="profile-details">
-        <div class="profile-content">
-          <!--<img src="image/profile.jpg" alt="profile">-->
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <i class='bx bx-outline'></i>
+            <span class="link_name">Pool</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
         </div>
+        <ul class="sub-menu">
+          <a class="link_name" href="#">Pool</a>
+          <a href="#">XHA/ETH</a>
+          <a href="#">XHA/USDC</a>
+          <a href="#">XHA/USDT</a>
+        </ul>
+      </li>
+      </li>
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <i class='bx bx-line-chart'></i>
+            <span class="link_name">Chart</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <a class="link_name" href="#">Chart</a>
+          <a href="#">Tokens</a>
+          <a href="#">Pool</a>
+          <a href="#">Wallet stats </a>
+        </ul>
+      </li>
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <i class='bx bx-broadcast'></i>
+            <span class="link_name">Xeha TV</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <a class="link_name" href="#">Xeha TV</a>
+          <a href="#">Stream home</a>
+          <a href="#">Pool</a>
+          <a href="#">Your channel </a>
+        </ul>
+      </li>
+      <li>
         <a href="#">
-          <div class="name-job">
-            <div class="profile_name">Login</div>
-            <div class="job">With Metamask</div>
-          </div>
+          <i class='bx bx-cog'></i>
+          <span class="link_name">Setting</span>
         </a>
-        <i><img src="icon/metalogo.png"></i>
-      </div>
-    </li>
+        <ul class="sub-menu blank">
+          <a class="link_name" href="#">Setting</a>
+        </ul>
+      </li>
+      <li>
+        <div onclick="login()" class="profile-details">
+          <div class="profile-content">
+            <!--<img src="image/profile.jpg" alt="profile">-->
+          </div>
+          <a href="#">
+            <div class="name-job">
+              <div class="profile_name">Login</div>
+              <div class="job">With Metamask</div>
+            </div>
+          </a>
+          <i><img src="icon/metalogo.png"></i>
+        </div>
+      </li>
     </ul>
   </div>
 
@@ -155,11 +174,13 @@
     } else {
       console.log("unable to log");
     }
+
   </script>
 
-  <div class="Pool">
-    <iframe src="https://quickswap.exchange/#/pool" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  <div class="streaming">
+    <iframe style="position: absolute; left: 400px; top: 100px;" width="1920px" height="1080px" src="http://localhost" frameborder="0" scrolling="no" allowfullscreen style="left: 500px;"></iframe>
   </div>
+
 </body>
 
 </html>

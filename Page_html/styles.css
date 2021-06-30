@@ -7,18 +7,12 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.Swap {
-  position: relative;  
+/* Main CSS properties */
+html {
+  background-color: #0f1118;
 }
 
-.Swap iframe {
-  position: absolute; 
-  top: 0; 
-  left: 0px; 
-  width: 100vw; 
-  height: 100vh;  
-}
-
+/* Sidebar */
 .Pool {
   position: relative;  
 }
@@ -170,7 +164,7 @@
   font-size: 18px;
   font-weight: 400;
   color: #fff;
-  transition: all 0.4s ease;
+  /*transition: all 0.4s ease;*/
   user-select: none;
 }
 .sidebar.close .nav-links li a .link_name{
@@ -243,14 +237,12 @@
   justify-content: space-between;
   background: #161a24;
   padding: 6px 0;
-  transition: all 0.5s ease;
 }
 .sidebar.close .profile-details{
   background: none;
   width: 78px;
   top: 4000px;
   opacity: 0;
-  transition: all 0.1s ease;
 }
 
 .sidebar .profile-details{
@@ -288,6 +280,24 @@
 }
 .sidebar .profile-details .job{
   font-size: 12px;
+}
+
+/* Right pannel */
+.responsive-right-pannel .Swap iframe {
+  position: relative; 
+  top: 0; 
+  left: 260px; 
+  width: calc(100% - 260px); 
+  height: 100vh;
+  transition: all 0.5s ease;  
+}
+
+.responsive-right-pannel.sidebarclosed .Swap iframe {
+  position: relative; 
+  top: 0; 
+  left: 78px; 
+  width: calc(100% - 78px); 
+  height: 100vh;
 }
 
 
