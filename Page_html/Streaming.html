@@ -135,51 +135,11 @@
       </li>
     </ul>
   </div>
-
-  <script>
-
-    let arrow = document.querySelectorAll(".arrow");
-    for (var i = 0; i < arrow.length; i++) {
-      arrow[i].addEventListener("click", (e) => {
-        let arrowParent = e.target.parentElement.parentElement;
-        arrowParent.classList.toggle("showMenu");
-      });
-    }
-
-    let sidebar = document.querySelector(".sidebar");
-    let sidebarBtn = document.querySelector(".logo-details a i img");
-    console.log(sidebarBtn);
-    sidebarBtn.addEventListener("click", () => {
-      sidebar.classList.toggle("close");
-    });
-
-
-    Moralis.initialize("A1wx0qFYX4M8QlKNVeC330wGq2EYnO0iOGQggXc8"); // Application id from moralis.io
-    Moralis.serverURL = "https://kbcp7hj3liti.moralis.io:2053/server"; //Server url from moralis.io
-
-    async function login() {
-      console.log("login clicked");
-      var user = await Moralis.Web3.authenticate();
-      if (user) {
-        console.log(user);
-        user.save();
-      }
-    }
-
-
-    Moralis.User.enableUnsafeCurrentUser()
-    const currentUser = Moralis.User.current();
-    if (currentUser) {
-      console.log("log sucess");
-    } else {
-      console.log("unable to log");
-    }
-
-  </script>
-
   <div class="streaming">
-    <iframe style="position: absolute; left: 400px; top: 100px;" width="1920px" height="1080px" src="http://localhost" frameborder="0" scrolling="no" allowfullscreen style="left: 500px;"></iframe>
+    <iframe style="position: absolute; left: 400px; top: 100px;" width="1920px" height="1080px" src="http://localhost"
+      frameborder="0" scrolling="no" allowfullscreen style="left: 500px;"></iframe>
   </div>
+  <script src="script.js"></script>
 
 </body>
 
