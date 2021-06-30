@@ -8,7 +8,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
   <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
-
   <title>Xehacoin</title>
   <!-- Boxicons CDN Link -->
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -44,9 +43,9 @@
         </div>
         <ul class="sub-menu">
           <a class="link_name" href="#">Quickswap</a>
-          <a onClick()="aclick" id="buy_button">Buy</a>
-          <a onClick()="bclick" id="sell_button">Sell</a>
-          <a onClick()="cclick" id="rewards_button">Rewards</a>
+          <a href="#" onclick="aclick()" >Buy</a>
+          <a href="#" onclick="bclick()" >Sell</a>
+          <a href="#" onclick="cclick()" >Rewards</a>
         </ul>
       </li>
       <li>
@@ -137,7 +136,7 @@
   </div>
   <div class="responsive-right-pannel">
     <div class="Swap">
-      <iframe src="https://quickswap.exchange/#/swap" frameborder="0" scrolling="no" allowfullscreen id="right_pannel"></iframe>
+      <iframe src="" frameborder="0" scrolling="no" allowfullscreen id="right_pannel"></iframe>
     </div>
   </div>
 
@@ -162,18 +161,27 @@
     });
 
     // Dynamic Right pannel Iframe source
-    let iframe = document.getElementById(right_pannel);
+    
     let buy = document.getElementById(buy_button);
     let sell = document.getElementById(sell_button);
     let rewards = document.getElementById(rewards_button);
-    buy.addEventListener("aclick", ()=>{
+    
+    async function aclick() {
+      document.getElementById("right_pannel").src = "https://quickswap.exchange/#/swap"
+      console.log("a");
+    };
+    
+    async function bclick() {
+      document.getElementById("right_pannel").src = "https://quickswap.exchange/#/pool"
+      console.log("b");
+    };
+     
+    async function cclick() {
+      let iframe = document.getElementById(right_pannel);
       iframe.src="https://quickswap.exchange/#/swap";
       console.log("a");
-    });
-    sell.addEventListener("bclick", () => {
-      iframe.src = "https://quickswap.exchange/#/pool";
-      console.log("b");
-    });
+    };
+
     rewards.addEventListener("cclick", () => {
         iframe.src = "https://quickswap.exchange/#/quick";
         console.log("c");
