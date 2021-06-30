@@ -43,9 +43,9 @@
         </div>
         <ul class="sub-menu">
           <a class="link_name" href="#">Quickswap</a>
-          <a href="#" onclick="aclick()" >Buy</a>
-          <a href="#" onclick="bclick()" >Sell</a>
-          <a href="#" onclick="cclick()" >Rewards</a>
+          <a href="#" onclick="aclick()">Buy</a>
+          <a href="#" onclick="bclick()">Sell</a>
+          <a href="#" onclick="cclick()">Rewards</a>
         </ul>
       </li>
       <li>
@@ -89,15 +89,15 @@
         </div>
         <ul class="sub-menu">
           <a class="link_name" href="#">Chart</a>
-          <a href="#">Tokens</a>
-          <a href="#">Pool</a>
-          <a href="#">Wallet stats </a>
+          <a href="#" onclick="dclick()">Overview</a>
+          <a href="#" onclick="eclick()">Tokens</a>
+          <a href="#" onclick="fclick()">Pool</a>
         </ul>
       </li>
       <li>
         <div class="icon-link">
           <a href="#">
-            <i class='bx bx-broadcast'></i>
+            <i class='bx bx-tv'></i>
             <span class="link_name">Xeha TV</span>
           </a>
           <i class='bx bxs-chevron-down arrow'></i>
@@ -110,33 +110,33 @@
         </ul>
       </li>
       <li>
-        <a href="#">
+        <a href="Dashboard.html">
           <i class='bx bx-cog'></i>
           <span class="link_name">Settings</span>
         </a>
         <ul class="sub-menu blank">
-          <a class="link_name" href="#">Settings</a>
+          <a class="link_name" href="Dashboard.html">Settings</a>
         </ul>
       </li>
+    <a href="#">
       <li>
-        <div onclick="login()" class="profile-details">
-          <div class="profile-content">
-            <!--<img src="image/profile.jpg" alt="profile">-->
-          </div>
-          <a href="#">
+          <div onclick="login()" class="profile-details">
+            <div class="profile-content">
+              <!--<img src="image/profile.jpg" alt="profile">-->
+            </div>
             <div class="name-job">
               <div class="profile_name">Login</div>
               <div class="job">With Metamask</div>
             </div>
-          </a>
-          <i><img src="icon/metalogo.png"></i>
-        </div>
+        <i><img src="icon/metalogo.png"></i>
       </li>
-    </ul>
+    </a>
+  </ul>
   </div>
+
   <div class="responsive-right-pannel">
     <div class="Swap">
-      <iframe src="" frameborder="0" scrolling="no" allowfullscreen id="right_pannel"></iframe>
+      <iframe src="" style="border:0;" frameborder="0" allowfullscreen id="right_pannel"></iframe>
     </div>
   </div>
 
@@ -161,31 +161,36 @@
     });
 
     // Dynamic Right pannel Iframe source
-    
-    let buy = document.getElementById(buy_button);
-    let sell = document.getElementById(sell_button);
-    let rewards = document.getElementById(rewards_button);
-    
+
     async function aclick() {
       document.getElementById("right_pannel").src = "https://quickswap.exchange/#/swap"
-      console.log("a");
-    };
-    
-    async function bclick() {
-      document.getElementById("right_pannel").src = "https://quickswap.exchange/#/pool"
-      console.log("b");
-    };
-     
-    async function cclick() {
-      let iframe = document.getElementById(right_pannel);
-      iframe.src="https://quickswap.exchange/#/swap";
-      console.log("a");
+      console.log("Buy page");
     };
 
-    rewards.addEventListener("cclick", () => {
-        iframe.src = "https://quickswap.exchange/#/quick";
-        console.log("c");
-    });
+    async function bclick() {
+      document.getElementById("right_pannel").src = "https://quickswap.exchange/#/pool"
+      console.log("Sell page");
+    };
+
+    async function cclick() {
+      document.getElementById("right_pannel").src = "https://quickswap.exchange/#/quick"
+      console.log("Reward page");
+    };
+
+    async function dclick() {
+      document.getElementById("right_pannel").src = "https://info.uniswap.org/#/"
+      console.log("overview page");
+    };
+
+    async function eclick() {
+      document.getElementById("right_pannel").src = "https://info.uniswap.org/#/pools"
+      console.log("pool stats page");
+    };
+
+    async function fclick() {
+      document.getElementById("right_pannel").src = "https://info.uniswap.org/#/tokens"
+      console.log("Token stats page");
+    };
 
     Moralis.initialize("A1wx0qFYX4M8QlKNVeC330wGq2EYnO0iOGQggXc8"); // Application id from moralis.io
     Moralis.serverURL = "https://kbcp7hj3liti.moralis.io:2053/server"; //Server url from moralis.io
