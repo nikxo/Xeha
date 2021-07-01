@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
   <script src="https://unpkg.com/moralis/dist/moralis.js"></script>
+  <!-- Title -->
   <title>Xehacoin</title>
   <!-- Boxicons CDN Link -->
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
@@ -16,6 +17,8 @@
 </head>
 
 <body>
+
+  <!-- SIDEBAR -->
   <div class="sidebar">
     <div class="logo-details">
       <a href="#">
@@ -24,6 +27,7 @@
       <span class="logo_name">XehaCoin</span>
     </div>
     <ul class="nav-links">
+      <!-- Dashboard -->
       <li>
         <a href="Dashboard.html">
           <i class='bx bx-grid-alt'></i>
@@ -33,6 +37,7 @@
           <a class="link_name" href="Dashboard.html">Dashboard</a>
         </ul>
       </li>
+      <!-- Quickswap -->
       <li>
         <div class="icon-link">
           <a href="#">
@@ -43,11 +48,12 @@
         </div>
         <ul class="sub-menu">
           <a class="link_name" href="#">Quickswap</a>
-          <a href="#" onclick="aclick()">Buy</a>
-          <a href="#" onclick="bclick()">Sell</a>
-          <a href="#" onclick="cclick()">Rewards</a>
+          <a href="#quickswap_buy" onclick="buyNavButtonClick()">Buy</a>
+          <a href="#quickswap_sell" onclick="sellNavButtonClick()">Sell</a>
+          <a href="#quickswap_rewards" onclick="rewardNavButtonClick()">Rewards</a>
         </ul>
       </li>
+      <!-- Farm -->
       <li>
         <div class="icon-link">
           <a href="#">
@@ -58,11 +64,12 @@
         </div>
         <ul class="sub-menu">
           <a class="link_name" href="#">Staking</a>
-          <a href="#">XHA</a>
-          <a href="#">ETH</a>
-          <a href="#">USDT</a>
+          <a href="#farm_xha">XHA</a>
+          <a href="#farm_eth">ETH</a>
+          <a href="#farm_usdt">USDT</a>
         </ul>
       </li>
+      <!-- Pool -->
       <li>
         <div class="icon-link">
           <a href="#">
@@ -73,12 +80,13 @@
         </div>
         <ul class="sub-menu">
           <a class="link_name" href="#">Pool</a>
-          <a href="#">XHA/ETH</a>
-          <a href="#">XHA/USDC</a>
-          <a href="#">XHA/USDT</a>
+          <a href="#pool_ETH">XHA/ETH</a>
+          <a href="#pool_USDC">XHA/USDC</a>
+          <a href="#pool_USDT">XHA/USDT</a>
         </ul>
       </li>
       </li>
+      <!-- Chart -->
       <li>
         <div class="icon-link">
           <a href="#">
@@ -89,11 +97,27 @@
         </div>
         <ul class="sub-menu">
           <a class="link_name" href="#">Chart</a>
-          <a href="#" onclick="dclick()">Overview</a>
-          <a href="#" onclick="eclick()">Tokens</a>
-          <a href="#" onclick="fclick()">Pool</a>
+          <a href="#chart_overview" onclick="overviewNavButtonClick()">Overview</a>
+          <a href="#chart_token" onclick="tokenNavButtonClick()">Tokens</a>
+          <a href="#chart_pool" onclick="poolNavButtonClick()">Pool</a>
         </ul>
       </li>
+      <!-- Store -->
+      <li>
+        <div class="icon-link">
+          <a href="#">
+            <i class='bx bx-shopping-bag'></i>
+            <span class="link_name">Store</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow'></i>
+        </div>
+        <ul class="sub-menu">
+          <a class="link_name" href="#">Store</a>
+          <a href="#game_store">Game</a>
+          <a href="#app_store">App</a>
+        </ul>
+      </li>
+      <!-- Xeha TV -->
       <li>
         <div class="icon-link">
           <a href="#">
@@ -104,11 +128,12 @@
         </div>
         <ul class="sub-menu">
           <a class="link_name" href="#">Xeha TV</a>
-          <a href="#">Stream home</a>
-          <a href="#">Pool</a>
-          <a href="#">Your channel </a>
+          <a href="#stream_home">Stream home</a>
+          <a href="#stream_pool">Pool</a>
+          <a href="#your_channel" onclick="streamingNavButtonClick()">Your channel </a>
         </ul>
       </li>
+      <!-- Settings -->
       <li>
         <a href="Dashboard.html">
           <i class='bx bx-cog'></i>
@@ -133,11 +158,15 @@
       </a>
     </ul>
   </div>
+  
+  <!-- RIGHT PANNEL -->
   <div class="responsive-right-pannel">
     <div class="Swap">
       <iframe src="" style="border:0;" frameborder="0" allowfullscreen id="right_pannel"></iframe>
     </div>
   </div>
+
+  <!-- Scripts -->
   <script src="script.js"></script>
 </body>
 

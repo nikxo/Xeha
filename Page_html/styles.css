@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* Main CSS properties */
+/* Main CSS properties and classes */
 html {
   background-color: #0f1118;
 }
@@ -300,12 +300,99 @@ html {
   height: 100vh;
 }
 
+/* Streaming CSS properties */
+@-webkit-keyframes backgroundColorStreamInfoBox {
+    0%{background-position:58% 0%}
+    50%{background-position:43% 100%}
+    100%{background-position:58% 0%}
+}
+@-moz-keyframes backgroundColorStreamInfoBox {
+    0%{background-position:58% 0%}
+    50%{background-position:43% 100%}
+    100%{background-position:58% 0%}
+}
+@-o-keyframes backgroundColorStreamInfoBox {
+    0%{background-position:58% 0%}
+    50%{background-position:43% 100%}
+    100%{background-position:58% 0%}
+}
+@keyframes backgroundColorStreamInfoBox {
+    0%{background-position:58% 0%}
+    50%{background-position:43% 100%}
+    100%{background-position:58% 0%}
+}
 
+.animated-background{
+  position: relative;
+  background: linear-gradient(70deg, #1c212d, #1c212d, #34dba1);
+  background-size: 300% 300%;
+  -webkit-animation: backgroundColorStreamInfoBox 15s ease-in-out infinite;
+  -moz-animation: backgroundColorStreamInfoBox 15s ease-in-out infinite;
+  -o-animation: backgroundColorStreamInfoBox 15s ease-in-out infinite;
+  animation: backgroundColorStreamInfoBox 15s ease-in-out infinite;
+  width:100vw;
+  height:100%;
+}
 
+.stream-pannel{
+  display: grid;
+  grid-template-columns: 80fr 20fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". .";
+}
 
+.stream-info-box {
+  display: grid;
+  width:80vw;
+  height:10vh;
+  border: 2px solid #34dba1;
+  border-bottom: none;
+  border-right: none;
+  border-radius: 4vh 0px 0px 0px;
+  grid-template-columns: 1fr 10fr 3fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". . .";
+   
+}
 
+.stream-info-box img{
+  width: 10vh;
+  height: 10vh;
+  border-radius: 4vh 0px 0px 0px;
+}
 
+.stream-info-box p{
+  color: white;
+  font-family: Poppins;
+}
 
- 
+.stream-info-box .title{
+  font-size: 4vh;
+  padding-left: 10px;
+}
 
+.stream-info-box .description{
+  font-size: 2vh;
+  padding-left: 10px;
+}
 
+.stream-frame{
+  width: 80vw;
+  height: 90vh;
+  padding: none; 
+  border: 2px solid #34dba1; 
+  border-top: none; 
+  border-right: none;
+}
+
+.chat-box{
+  width: 19vw;
+  height: 100vh;
+  padding: none; 
+  border: 2px solid #34dba1;
+  border-radius: 0px 4vh 0px 0px;
+}
