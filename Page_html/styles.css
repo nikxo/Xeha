@@ -351,12 +351,11 @@ html {
   border-bottom: none;
   border-right: none;
   border-radius: 4vh 0px 0px 0px;
-  grid-template-columns: 1fr 10fr 3fr; 
+  grid-template-columns: 1fr 10fr 1fr; 
   grid-template-rows: 1fr; 
   gap: 0px 0px; 
   grid-template-areas: 
     ". . .";
-   
 }
 
 .stream-info-box img{
@@ -380,6 +379,16 @@ html {
   padding-left: 10px;
 }
 
+.stream-info-box .viewers-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". .";
+  align-items: center;
+}
+
 .stream-frame{
   width: 80vw;
   height: 90vh;
@@ -390,9 +399,9 @@ html {
 }
 
 .chat-box{
-  width: 19vw;
+  width: 20vw;
   height: 100vh;
   padding: none; 
   border: 2px solid #34dba1;
-  border-radius: 0px 4vh 0px 0px;
+  border-radius: 0px 0px 0px 0px;
 }
