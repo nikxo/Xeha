@@ -1,0 +1,6 @@
+Streamer:
+- Grade affilié pour avoir le watchtime earn (rate nb de vievers / heure regardée / stream)
+- Sinon rémunaration dans tous les cas par donations des viewers
+
+Viewers:
+- Watchtime earn
