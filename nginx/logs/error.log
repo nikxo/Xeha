@@ -1,0 +1,207 @@
+2021/07/03 02:45:19 [notice] 60404#63612: signal process started (quit)
+2021/07/03 02:45:19 [error] 60404#63612: CreateFile() "C:\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/07/03 02:45:19 [notice] 76116#53604: sockinit() attempting to access sockapi
+2021/07/03 02:45:19 [notice] 76116#53604: Access to sockapi succeded!
+2021/07/03 02:45:19 [notice] 76116#53604: using sockapi from "4;88;"
+2021/07/03 02:45:19 [notice] 41216#52304: sockinit() attempting to access sockapi
+2021/07/03 02:45:19 [notice] 41216#52304: Access to sockapi succeded!
+2021/07/03 02:45:19 [notice] 41216#52304: using sockapi from "4;8;"
+2021/07/03 02:47:08 [error] 76116#63592: *2 directory index of "C:/nginx/srv/" is forbidden, client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost"
+2021/07/03 02:47:08 [error] 76116#63592: *2 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/07/03 02:56:20 [error] 41216#78084: *7 CreateFile() "C:/nginx/srv/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:23 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:26 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:29 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:32 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:35 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:38 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:41 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:44 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:47 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:50 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:53 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:56 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:27:59 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:02 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:05 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:08 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:11 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:14 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:17 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:20 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:23 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:26 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:29 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:32 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:35 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:38 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:41 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:44 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:47 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:50 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:53 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:56 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:28:59 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:02 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:05 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:08 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:11 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:14 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:17 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:20 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:23 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:26 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:29 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:32 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:35 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:38 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:41 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:44 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:47 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:50 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:53 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:56 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:29:59 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:02 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:05 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:08 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:11 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:14 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:17 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:20 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:23 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:26 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:29 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:32 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:34 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:37 [error] 76116#63592: *36 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:30:37 [notice] 78832#70832: signal process started (quit)
+2021/07/03 03:30:41 [notice] 10452#33992: signal process started (quit)
+2021/07/03 03:33:36 [notice] 71860#50296: signal process started (quit)
+2021/07/03 03:33:40 [notice] 61268#54744: signal process started (quit)
+2021/07/03 03:33:40 [notice] 36564#9200: Fatal: wait for sockapi failed
+2021/07/03 03:33:55 [notice] 39144#24492: signal process started (quit)
+2021/07/03 03:34:59 [notice] 53816#30548: signal process started (quit)
+2021/07/03 03:34:59 [error] 53816#30548: CreateFile() "C:\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/07/03 03:35:00 [notice] 48136#60284: sockinit() attempting to access sockapi
+2021/07/03 03:35:00 [notice] 48136#60284: Access to sockapi succeded!
+2021/07/03 03:35:00 [notice] 48136#60284: using sockapi from "4;88;"
+2021/07/03 03:35:00 [notice] 66516#67644: sockinit() attempting to access sockapi
+2021/07/03 03:35:00 [notice] 66516#67644: Access to sockapi succeded!
+2021/07/03 03:35:00 [notice] 66516#67644: using sockapi from "4;8;"
+2021/07/03 03:35:05 [notice] 76224#32676: signal process started (quit)
+2021/07/03 03:35:11 [notice] 22992#26124: signal process started (quit)
+2021/07/03 03:35:11 [error] 22992#26124: CreateFile() "C:\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/07/03 03:35:12 [notice] 55588#76308: sockinit() attempting to access sockapi
+2021/07/03 03:35:12 [notice] 55588#76308: Access to sockapi succeded!
+2021/07/03 03:35:12 [notice] 55588#76308: using sockapi from "4;80;"
+2021/07/03 03:35:12 [notice] 20880#48436: sockinit() attempting to access sockapi
+2021/07/03 03:35:12 [notice] 20880#48436: Access to sockapi succeded!
+2021/07/03 03:35:12 [notice] 20880#48436: using sockapi from "4;8;"
+2021/07/03 03:35:21 [notice] 59376#41292: signal process started (quit)
+2021/07/03 03:36:10 [notice] 23908#66688: signal process started (quit)
+2021/07/03 03:36:43 [notice] 17276#39444: signal process started (quit)
+2021/07/03 03:36:43 [error] 17276#39444: CreateFile() "C:\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/07/03 03:36:43 [notice] 62612#54836: sockinit() attempting to access sockapi
+2021/07/03 03:36:43 [notice] 62612#54836: Access to sockapi succeded!
+2021/07/03 03:36:43 [notice] 62612#54836: using sockapi from "4;80;"
+2021/07/03 03:36:43 [notice] 6368#59300: sockinit() attempting to access sockapi
+2021/07/03 03:36:43 [notice] 6368#59300: Access to sockapi succeded!
+2021/07/03 03:36:43 [notice] 6368#59300: using sockapi from "4;8;"
+2021/07/03 03:37:01 [notice] 52268#53272: signal process started (quit)
+2021/07/03 03:37:29 [notice] 78840#52176: signal process started (quit)
+2021/07/03 03:37:29 [error] 78840#52176: CreateFile() "C:\nginx/logs/nginx.pid" failed (2: The system cannot find the file specified)
+2021/07/03 03:37:30 [notice] 42524#13332: sockinit() attempting to access sockapi
+2021/07/03 03:37:30 [notice] 42524#13332: Access to sockapi succeded!
+2021/07/03 03:37:30 [notice] 42524#13332: using sockapi from "4;80;"
+2021/07/03 03:37:30 [notice] 34840#22060: sockinit() attempting to access sockapi
+2021/07/03 03:37:30 [notice] 34840#22060: Access to sockapi succeded!
+2021/07/03 03:37:30 [notice] 34840#22060: using sockapi from "4;8;"
+2021/07/03 03:39:02 [error] 34840#77148: *5 CreateFile() "C:/nginx/srv/hls/556-11.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-11.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:04 [error] 34840#77148: *5 CreateFile() "C:/nginx/srv/hls/556-11.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-11.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:12 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-13.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-13.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:14 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-13.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-13.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:16 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-14.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-14.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:18 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-14.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-14.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:20 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-15.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-15.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:25 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-16.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-16.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:28 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-16.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-16.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:32 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-17.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-17.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:34 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-18.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-18.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:38 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-19.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-19.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:40 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-20.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-20.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:42 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556-20.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-20.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:39:58 [error] 42524#33772: *6 CreateFile() "C:/nginx/srv/hls/556-24.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-24.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:41:06 [error] 42524#33772: *4 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:41:07 [error] 42524#33772: *6 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:43:32 [error] 42524#33772: *1 hls: rename failed: '/nginx/srv/hls/556.m3u8.bak'->'/nginx/srv/hls/556.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/07/03 03:43:37 [error] 42524#33772: *1 hls: rename failed: '/nginx/srv/hls/556.m3u8.bak'->'/nginx/srv/hls/556.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/07/03 03:43:38 [error] 42524#76756: hls: cleanup DeleteFile() failed on '/nginx/srv/hls/556.m3u8' (32: The process cannot access the file because it is being used by another process)
+2021/07/03 03:43:41 [error] 42524#33772: *1 hls: rename failed: '/nginx/srv/hls/556.m3u8.bak'->'/nginx/srv/hls/556.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/07/03 03:43:45 [error] 42524#33772: *1 hls: rename failed: '/nginx/srv/hls/556.m3u8.bak'->'/nginx/srv/hls/556.m3u8' (5: Access is denied), client: 127.0.0.1, server: 0.0.0.0:1935
+2021/07/03 03:43:48 [error] 42524#33772: *7 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:43:52 [error] 42524#33772: *7 CreateFile() "C:/nginx/srv/hls/556-80.ts" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556-80.ts HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:44:27 [error] 42524#33772: *7 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:45:00 [notice] 35020#67548: signal process started (quit)
+2021/07/03 03:45:20 [notice] 51324#496: signal process started (quit)
+2021/07/03 03:45:20 [error] 51324#496: OpenEvent("Global\ngx_quit_49420") failed (2: The system cannot find the file specified)
+2021/07/03 03:45:20 [notice] 66472#25756: sockinit() attempting to access sockapi
+2021/07/03 03:45:20 [notice] 66472#25756: Access to sockapi succeded!
+2021/07/03 03:45:20 [notice] 66472#25756: using sockapi from "4;80;"
+2021/07/03 03:45:21 [notice] 44840#55688: sockinit() attempting to access sockapi
+2021/07/03 03:45:21 [notice] 44840#55688: Access to sockapi succeded!
+2021/07/03 03:45:21 [notice] 44840#55688: using sockapi from "4;8;"
+2021/07/03 03:46:38 [notice] 44104#21244: sockinit() attempting to access sockapi
+2021/07/03 03:46:38 [notice] 44104#21244: Access to sockapi succeded!
+2021/07/03 03:46:38 [notice] 44104#21244: using sockapi from "4;8;"
+2021/07/03 03:46:41 [notice] 72176#68352: sockinit() attempting to access sockapi
+2021/07/03 03:46:41 [notice] 72176#68352: Access to sockapi succeded!
+2021/07/03 03:46:41 [notice] 72176#68352: using sockapi from "4;8;"
+2021/07/03 03:47:33 [notice] 62288#31408: signal process started (quit)
+2021/07/03 03:47:33 [error] 62288#31408: OpenEvent("Global\ngx_quit_52316") failed (2: The system cannot find the file specified)
+2021/07/03 03:47:33 [notice] 15156#65800: sockinit() attempting to access sockapi
+2021/07/03 03:47:33 [notice] 15156#65800: Access to sockapi succeded!
+2021/07/03 03:47:33 [notice] 15156#65800: using sockapi from "4;80;"
+2021/07/03 03:47:34 [notice] 37220#64120: sockinit() attempting to access sockapi
+2021/07/03 03:47:34 [notice] 37220#64120: Access to sockapi succeded!
+2021/07/03 03:47:34 [notice] 37220#64120: using sockapi from "4;8;"
+2021/07/03 03:47:36 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:47:39 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:47:42 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:47:45 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:47:47 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:47:49 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:47:51 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:47:53 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:47:55 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:47:57 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:47:59 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:48:01 [error] 15156#1096: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:50:21 [notice] 34284#33772: signal process started (quit)
+2021/07/03 03:50:21 [error] 34284#33772: OpenEvent("Global\ngx_quit_78228") failed (2: The system cannot find the file specified)
+2021/07/03 03:50:22 [notice] 33656#56996: sockinit() attempting to access sockapi
+2021/07/03 03:50:22 [notice] 33656#56996: Access to sockapi succeded!
+2021/07/03 03:50:22 [notice] 33656#56996: using sockapi from "4;80;"
+2021/07/03 03:50:22 [notice] 53640#78700: sockinit() attempting to access sockapi
+2021/07/03 03:50:22 [notice] 53640#78700: Access to sockapi succeded!
+2021/07/03 03:50:22 [notice] 53640#78700: using sockapi from "4;8;"
+2021/07/03 03:50:23 [error] 33656#49424: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:50:25 [error] 33656#49424: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:50:27 [error] 33656#49424: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:50:29 [error] 33656#49424: *1 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/03 03:55:31 [notice] 28088#32024: sockinit() attempting to access sockapi
+2021/07/03 03:55:31 [notice] 28088#32024: Access to sockapi succeded!
+2021/07/03 03:55:31 [notice] 28088#32024: using sockapi from "4;8;"
+2021/07/03 03:55:33 [notice] 6248#68528: sockinit() attempting to access sockapi
+2021/07/03 03:55:33 [notice] 6248#68528: Access to sockapi succeded!
+2021/07/03 03:55:33 [notice] 6248#68528: using sockapi from "4;8;"
+2021/07/04 23:15:22 [notice] 11496#27440: sockinit() attempting to access sockapi
+2021/07/04 23:15:22 [notice] 11496#27440: Access to sockapi succeded!
+2021/07/04 23:15:22 [notice] 11496#27440: using sockapi from "4;80;"
+2021/07/04 23:15:22 [notice] 32532#3868: sockinit() attempting to access sockapi
+2021/07/04 23:15:22 [notice] 32532#3868: Access to sockapi succeded!
+2021/07/04 23:15:22 [notice] 32532#3868: using sockapi from "4;8;"
+2021/07/04 23:15:27 [error] 11496#28236: *2 CreateFile() "C:/nginx/srv/hls/556.m3u8" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: , request: "GET /hls/556.m3u8 HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/viewer.html"
+2021/07/05 00:45:27 [notice] 34224#30404: sockinit() attempting to access sockapi
+2021/07/05 00:45:27 [notice] 34224#30404: Access to sockapi succeded!
+2021/07/05 00:45:27 [notice] 34224#30404: using sockapi from "4;8;"
