@@ -1,6 +1,6 @@
 # Xeha
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)ZS
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Static Badge](https://img.shields.io/badge/Nginx-1.7.11.3-green:badgeContent)
 ![Static Badge](https://img.shields.io/badge/Docker-17.06.0+-blue:badgeContent)
 ![GitHub stars](https://img.shields.io/github/stars/nikxo/Xeha)
