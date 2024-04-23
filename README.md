@@ -1,7 +1,7 @@
 # Xeha
 
 ![Project Logo](https://raw.githubusercontent.com/nikxo/Xeha/main/Page_html/icon/coin.png)
-
+![GitHub license](https://img.shields.io/github/license/nikxo/Xeha)  
 ![GitHub stars](https://img.shields.io/github/stars/nikxo/Xeha)
 
 ## Description
@@ -12,11 +12,11 @@ Xeha is an autonomous platform model based on cryptocurrency. The goal is to be 
 
 # Token exchanger
 
-![Image de démonstration](https://github.com/nikxo/Xeha/tree/main/Page_html/icon/rdm/exchanger.png)
+![Image de démonstration](https://raw.githubusercontent.com/nikxo/Xeha/main/Page_html/icon/rdm/exchanger.png)
 
 # Streaming area
 
-![Image de démonstration](https://github.com/nikxo/Xeha/tree/main/Page_html/icon/rdm/stream.png)
+![Image de démonstration](https://raw.github.com/nikxo/Xeha/tree/main/Page_html/icon/rdm/stream.png)
 
 ## License
 
