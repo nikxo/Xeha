@@ -48,7 +48,7 @@ SOFTWARE.
 
 # Authors
 
-List the project's authors and contributors. You can link to their GitHub profiles or personal websites.
+The development of this project was possible thanks to the joint efforts of the following authors and contributors:
 
 - [Nikxo](https://github.com/nikxo)
 - [Vegasword](https://github.com/vegasword)
