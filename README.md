@@ -2,6 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub stars](https://img.shields.io/github/stars/nikxo/Xeha)
+![Static Badge](https://img.shields.io/badge/Nginx-1.7.11.3-green:badgeContent)
+![Static Badge](https://img.shields.io/badge/Docker-17.06.0+-blue:badgeContent)
 
 ## Description
 
@@ -15,7 +17,7 @@ Xeha is an autonomous platform model based on cryptocurrency. The goal is to be 
 
 # Streaming area
 
-![Image de démonstration](https://raw.github.com/nikxo/Xeha/tree/main/Page_html/icon/rdm/stream.png)
+![Image de démonstration](https://raw.githubusercontent.com/nikxo/Xeha/main/Page_html/icon/rdm/stream.png)
 
 ## License
 
