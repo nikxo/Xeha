@@ -9,21 +9,21 @@
 ![Static Badge](https://img.shields.io/badge/Docker-17.06.0+-blue:badgeContent)
 ![GitHub stars](https://img.shields.io/github/stars/nikxo/Xeha)
 
-## Description
+# Description
 
 Xeha is an autonomous platform model based on cryptocurrency. The goal is to be able to create a self-financing platform through the speculative aspect of a cryptocurrency and to derive a real internet for all users of the platform, streaming income, currency staking all being centralize in the same place.
 
-## Overview
+# Overview
 
-# Token exchanger
+## Token exchanger
 
 ![Image de démonstration](https://raw.githubusercontent.com/nikxo/Xeha/main/Page_html/icon/rdm/exchanger.png)
 
-# Streaming area
+## Streaming area
 
 ![Image de démonstration](https://raw.githubusercontent.com/nikxo/Xeha/main/Page_html/icon/rdm/stream.png)
 
-## License
+# License
 
 Specify the license under which your project is distributed. If using a popular license (like MIT, Apache, or GPL), provide a brief summary and a link to the full text.
 
@@ -31,7 +31,7 @@ Specify the license under which your project is distributed. If using a popular 
 This project is licensed under the MIT License - see the LICENSE file for details.
 ```
 
-## Authors
+# Authors
 
 List the project's authors and contributors. You can link to their GitHub profiles or personal websites.
 
