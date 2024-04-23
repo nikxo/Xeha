@@ -1,7 +1,10 @@
-# Xeha <div style="display: inline-block; vertical-align: top;">
+# Xeha
 
-  <img src="https://github.com/nikxo/Xeha/blob/main/Page_html/icon/coin.png" alt="Logo" height="50" />
-</div>
+# <div style="display: inline-block; vertical-align: top;">
+
+# <img src="https://github.com/nikxo/Xeha/blob/main/Page_html/icon/coin.png" alt="Logo" height="50" />
+
+# </div>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Static Badge](https://img.shields.io/badge/Nginx-1.7.11.3-green:badgeContent)
