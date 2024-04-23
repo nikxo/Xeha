@@ -1,6 +1,5 @@
-# Xeha
+# Xeha <div style="display: inline-block; vertical-align: top;">
 
-<div style="display: inline-block; vertical-align: top;">
   <img src="https://github.com/nikxo/Xeha/blob/main/Page_html/icon/coin.png" alt="Logo" height="50" />
 </div>
 
