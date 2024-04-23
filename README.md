@@ -1,9 +1,8 @@
 # Xeha
 
-![Project Logo](link-to-logo)  
-![GitHub license](https://img.shields.io/github/license/your-username/your-repo)  
-![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo)  
-![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo)
+![Project Logo](https://raw.githubusercontent.com/nikxo/Xeha/main/Page_html/icon/coin.png)  
+![GitHub license](https://img.shields.io/github/license/nikxo/Xeha)  
+![GitHub stars](https://img.shields.io/github/stars/nikxo/Xeha)
 
 ## Description
 
