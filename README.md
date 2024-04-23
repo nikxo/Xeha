@@ -1,7 +1,6 @@
 # Xeha
 
-![Project Logo](https://raw.githubusercontent.com/nikxo/Xeha/main/Page_html/icon/coin.png)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub stars](https://img.shields.io/github/stars/nikxo/Xeha)
 
 ## Description
